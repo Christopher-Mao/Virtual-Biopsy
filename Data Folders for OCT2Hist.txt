@@ -1,0 +1,21 @@
+We have 59 hearts, labeled HH1 to HH59. Each comes from a separate patient and each has a varying number of good coregistration matches.
+
+Chris_pdf2dir.ipynb is Chris's version of Issac's OCT2Hist_Image_Name_Stripper.ipynb
+
+Folder HH2 holds 3 folders: LAD, RCA, and LCX
+
+Within each, holds OCT, OCT_extracted_base, and OCT_extracted; H&E, H&E_extracted_base, and H&E_extracted:
+- OCT: all OCT images collected for specific artery and specific heart
+- OCT_extracted_base: only the OCT images that have an accompanying H&E
+- OCT_extracted: renamed OCT images according to our naming convention (IMPT!!!)
+
+- H&E: all H&E images collected for specific artery and specific heart
+- H&E_extracted_base: only the H&E images that have an accompanying OCT
+- H&E_extracted: renamed H&E images according to our naming convention (IMPT!!!)
+
+
+Naming convention:
+- OCT: heart # + L/R/X + OCT frame # + OCT
+	i.e. 02L_19_OCT
+- H&E: heart # + L/R/X + OCT frame # + hist
+	i.e. 02L_19_hist
